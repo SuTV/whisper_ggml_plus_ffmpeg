@@ -1,0 +1,21 @@
+name: whisper_ggml_plus_ffmpeg
+description: FFmpeg-based audio converter extension for whisper_ggml_plus. Decouples FFmpeg from the core engine to prevent version conflicts.
+version: 1.0.0
+homepage: https://github.com/DDULDDUCK/whisper_ggml_plus
+repository: https://github.com/DDULDDUCK/whisper_ggml_plus/tree/master/whisper_ggml_plus_ffmpeg
+
+environment:
+  sdk: ^3.1.0
+  flutter: ">=3.7.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ffmpeg_kit_flutter_new_min: ^3.1.0
+  whisper_ggml_plus: ^1.3.0
+  universal_io: ^2.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^10.0.0
