@@ -12,7 +12,10 @@ dependencies:
   flutter:
     sdk: flutter
   ffmpeg_kit_flutter_new: ^4.1.0
-  whisper_ggml_plus: ^1.5.0
+  whisper_ggml_plus:
+    git:
+      url: https://github.com/SuTV/whisper_ggml_plus.git
+      ref: master
   universal_io: ^2.3.1
 
 dev_dependencies:
